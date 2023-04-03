@@ -1,35 +1,52 @@
 # SENG-207-Course-Project-2
 
-![text-to-speech](https://user-images.githubusercontent.com/102630199/229537063-ee5db4b6-92b7-4001-839d-3cda16d7179b.jpg)
+## Introduction:
 
+This repository contains two Python applications developed using the PySimpleGUI library, which is a Python module for creating graphical user interfaces (GUIs) quickly and easily. The two applications included are a Text to Speech App and a QR Code Generator App.
 
-## Project Name: SpeakEasy
+## Text to Speech App:
 
-## Description:
+The Text to Speech App is an application that converts text input into spoken words using the pyttsx3 library. The app has a simple and user-friendly interface, with an input text box, a Speak button, and a drop-down menu for selecting the voice type (male or female). The app also has options to adjust the volume and speed of the spoken words. This application can benefit individuals with visual impairments or those who prefer an audio-based interface.
 
-SpeakEasy is a text-to-speech application built with Python, PySimpleGUI, and pyttsx3. It allows users to enter text into an input box and convert it to speech with the click of a button. Users can select from a range of available voice types and adjust the volume and speed of the speech.
+## QR Code Generator App:
 
-SpeakEasy is designed to be accessible and user-friendly, particularly for individuals with visual impairments or those who prefer an audio-based interface. It also includes an advanced feature that allows users to switch between male and female voice types.
+The QR Code Generator App is an application that converts text input into a QR code image using the qrcode library. The app has a simple and user-friendly interface, with an input text box and a Create button. The app also has options to customize the size and color of the generated QR code image. This application can be useful for a variety of applications, such as generating QR codes for product information or event invitations.
 
-Installation
+## Installation:
 
-To install SpeakEasy, you'll need to have Python 3 and pip installed on your machine. Then, run the following commands:
+To use these applications, you must have Python 3 installed on your system. You can download the latest version of Python from the official Python website. You also need to install the PySimpleGUI, pyttsx3, and qrcode libraries using pip. To install these libraries, open your terminal or command prompt and run the following commands:
 
 ```
 pip install PySimpleGUI
 pip install pyttsx3
-git clone https://github.com/your-username/speakeasy.git
-cd speakeasy
-python speakeasy.py
+pip install qrcode
 ```
 
-Usage
+## Running the Applications:
 
-Once you've installed SpeakEasy, you can launch it by running python speakeasy.py in your terminal. This will open the SpeakEasy user interface.
+To run these applications, navigate to the directory where the Python files are located and run the command:
 
-To use SpeakEasy, simply type the text you want to convert to speech into the input box and click the "Speak" button. You can adjust the volume and speed of the speech using the controls provided. You can also select from a range of available voice types, including male and female options.
+```
+python app_name.py
+Replace app_name with the name of the Python file you want to run (either text_to_speech_app.py or qr_code_generator_app.py).
+```
+
+## Packaging the Applications:
+
+To package these applications into standalone executables, you can use the PyInstaller library. First, install PyInstaller using pip:
+
+```
+pip install pyinstaller
+Next, navigate to the directory where the Python files are located and run the following command:
+pyinstaller --onefile app_name.py
+Replace app_name with the name of the Python file you want to package (either text_to_speech_app.py or qr_code_generator_app.py). This command will create a "dist" folder containing the packaged executable.
+```
+
+## Contributing:
+
+If you have any suggestions or improvements for these applications, feel free to submit a pull request. Any contributions are welcome and appreciated.
 
 
-Contributers
+## Conclusion:
 
-Evans Acheampong
+These applications are a demonstration of the practical applications of Python in solving real-world problems. By developing these applications, we have applied fundamental concepts in Python, such as functions, procedural programming, and object-oriented programming, as well as relevant Python libraries to create desktop applications. We hope these applications can be useful to others and inspire further exploration into Python programming.
