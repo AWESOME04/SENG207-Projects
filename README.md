@@ -6,11 +6,20 @@ This repository contains two Python applications developed using the PySimpleGUI
 
 ## Text to Speech App:
 
+![Screenshot 2023-04-03 170353](https://user-images.githubusercontent.com/102630199/229579895-c69e4475-acf5-40c8-85bf-dc3a9a6ae1ea.jpg)
+
 The Text to Speech App is an application that converts text input into spoken words using the pyttsx3 library. The app has a simple and user-friendly interface, with an input text box, a Speak button, and a drop-down menu for selecting the voice type (male or female). The app also has options to adjust the volume and speed of the spoken words. This application can benefit individuals with visual impairments or those who prefer an audio-based interface.
+
+![maxresdefault](https://user-images.githubusercontent.com/102630199/229580014-94cedcde-ce12-43c8-ad93-4f2eeb497685.jpg)
 
 ## QR Code Generator App:
 
+![maxresdefalt](https://user-images.githubusercontent.com/102630199/229580109-7d5939f4-063f-487b-b213-80e1e0fb26de.jpg)
+
+
 The QR Code Generator App is an application that converts text input into a QR code image using the qrcode library. The app has a simple and user-friendly interface, with an input text box and a Create button. The app also has options to customize the size and color of the generated QR code image. This application can be useful for a variety of applications, such as generating QR codes for product information or event invitations.
+
+![Screenshot 2023-04-03 170832](https://user-images.githubusercontent.com/102630199/229580082-b54abf87-d38f-4d18-a9d0-c5ffcdc26942.jpg)
 
 ## Installation:
 
