@@ -31,7 +31,7 @@ layout = [  [sg.Text('Enter Text to Speak:')],
             [sg.Button('Speak'), sg.Button('Cancel')] ]
 
 # Create the window
-window = sg.Window('Text to Speech', layout)
+window = sg.Window('SpeakEasy', layout)
 
 # Event loop to process "events" and get the "values" of inputs
 while True:
