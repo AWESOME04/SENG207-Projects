@@ -19,3 +19,14 @@ git clone https://github.com/your-username/speakeasy.git
 cd speakeasy
 python speakeasy.py
 ```
+
+Usage
+
+Once you've installed SpeakEasy, you can launch it by running python speakeasy.py in your terminal. This will open the SpeakEasy user interface.
+
+To use SpeakEasy, simply type the text you want to convert to speech into the input box and click the "Speak" button. You can adjust the volume and speed of the speech using the controls provided. You can also select from a range of available voice types, including male and female options.
+
+
+Contributers
+
+Evans Acheampong
