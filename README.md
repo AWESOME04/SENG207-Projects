@@ -36,7 +36,7 @@ To run these applications, navigate to the directory where the Python files are 
 
 ```
 python app_name.py
-Replace app_name with the name of the Python file you want to run (either text_to_speech_app.py or qr_code_generator_app.py).
+Replace app_name with the name of the Python file you want to run (either speakeasy.py or qrcode_gen.py).
 ```
 
 ## Packaging the Applications:
@@ -47,7 +47,7 @@ To package these applications into standalone executables, you can use the PyIns
 pip install pyinstaller
 Next, navigate to the directory where the Python files are located and run the following command:
 pyinstaller --onefile app_name.py
-Replace app_name with the name of the Python file you want to package (either text_to_speech_app.py or qr_code_generator_app.py). This command will create a "dist" folder containing the packaged executable.
+Replace app_name with the name of the Python file you want to package (either speakeasy.py or qrcode_gen.py). This command will create a "dist" folder containing the packaged executable.
 ```
 
 ## Contributing:
