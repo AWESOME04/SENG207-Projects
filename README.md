@@ -1,2 +1,21 @@
-# SENG-207-Course-Project-2-SpeakEasy-
-SpeakEasy is a text-to-speech application built with Python, PySimpleGUI, and pyttsx3. It allows users to enter text into an input box and convert it to speech with the click of a button.
+# SENG-207-Course-Project-2
+
+## Project Name: SpeakEasy
+
+## Description:
+
+SpeakEasy is a text-to-speech application built with Python, PySimpleGUI, and pyttsx3. It allows users to enter text into an input box and convert it to speech with the click of a button. Users can select from a range of available voice types and adjust the volume and speed of the speech.
+
+SpeakEasy is designed to be accessible and user-friendly, particularly for individuals with visual impairments or those who prefer an audio-based interface. It also includes an advanced feature that allows users to switch between male and female voice types.
+
+Installation
+
+To install SpeakEasy, you'll need to have Python 3 and pip installed on your machine. Then, run the following commands:
+
+```
+pip install PySimpleGUI
+pip install pyttsx3
+git clone https://github.com/your-username/speakeasy.git
+cd speakeasy
+python speakeasy.py
+```
