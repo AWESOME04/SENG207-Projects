@@ -1,5 +1,7 @@
 ## Project Name: QR Code Generator
 
+![1792-1](https://user-images.githubusercontent.com/102630199/229581932-47fea27f-0206-4e72-b818-a537914a6ae3.png)
+
 ## Description:
 
 This is a Python program that generates QR codes. It uses the qrcode library to create a QR code from the user input and displays it in the GUI using PySimpleGUI. The user can customize the QR code by selecting the fill color, background color, border size, and box size.
