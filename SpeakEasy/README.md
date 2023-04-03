@@ -8,7 +8,7 @@ SpeakEasy is a text-to-speech application built with Python, PySimpleGUI, and py
 
 SpeakEasy is designed to be accessible and user-friendly, particularly for individuals with visual impairments or those who prefer an audio-based interface. It also includes an advanced feature that allows users to switch between male and female voice types.
 
-Installation
+## Installation
 
 To install SpeakEasy, you'll need to have Python 3 and pip installed on your machine. Then, run the following commands:
 
@@ -20,13 +20,13 @@ cd speakeasy
 python speakeasy.py
 ```
 
-Usage
+## Usage
 
 Once you've installed SpeakEasy, you can launch it by running python speakeasy.py in your terminal. This will open the SpeakEasy user interface.
 
 To use SpeakEasy, simply type the text you want to convert to speech into the input box and click the "Speak" button. You can adjust the volume and speed of the speech using the controls provided. You can also select from a range of available voice types, including male and female options.
 
 
-Contributers
+## Contributers
 
 Evans Acheampong (@AWESOME04)
