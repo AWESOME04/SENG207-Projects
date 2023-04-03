@@ -1,7 +1,4 @@
-# SENG-207-Course-Project-2
-
 ![text-to-speech](https://user-images.githubusercontent.com/102630199/229537063-ee5db4b6-92b7-4001-839d-3cda16d7179b.jpg)
-
 
 ## Project Name: SpeakEasy
 
@@ -32,4 +29,4 @@ To use SpeakEasy, simply type the text you want to convert to speech into the in
 
 Contributers
 
-Evans Acheampong
+Evans Acheampong (@AWESOME04)
